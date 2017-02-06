@@ -12,7 +12,7 @@ function redirectSec(req, res, next) {
 		return next();
 	}
 }
-app.all('/', redirectSec);
+//app.all('/', redirectSec);
 
 app.get('/', function(req,res){
 	console.log("serving...");
