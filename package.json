@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_testing_openshift",
+  "version": "1.0.0",
+  "description": "This is just a simple dummy project to test the OpenShift platform",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herychemo/nodejs_testing_openshift.git"
+  },
+  "author": "Heriberto Reyes Esparza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herychemo/nodejs_testing_openshift/issues"
+  },
+  "homepage": "https://github.com/herychemo/nodejs_testing_openshift#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
