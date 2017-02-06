@@ -7,6 +7,6 @@ app.get('/', function(req,res){
 	res.send("Hi Bitch 2.0");
 });
 
-app.listen(8080, function(){
+app.listen(80, function(){
 	console.log("Done..");
 });
