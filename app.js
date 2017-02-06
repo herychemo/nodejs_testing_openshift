@@ -4,7 +4,7 @@ var app = express();
 
 app.get('/', function(req,res){
 	console.log("serving...");
-	res.send("Hi Bitch");
+	res.send("Hi Bitch 2.0");
 });
 
 app.listen(8080, function(){
