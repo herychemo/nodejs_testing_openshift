@@ -19,7 +19,11 @@ app.get('/', function(req,res){
 	res.send("Hi Bitch 2.0");
 });
 
+server = require('http').createServer(app);
+server.listen(server_port, server_ip_address);
+/*
 app.listen(server_port, server_ip_address, function(){
 	console.log("Done..");
 	console.log( "Listening on " + server_ip_address + ", port " + server_port );
 });
+*/
